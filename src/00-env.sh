@@ -12,8 +12,13 @@ function set_proxy(){
     cp ./usr/share/apt/apt.conf.d/99-proxy.conf /etc/apt/apt.conf.d/
 }
 
-# comment this if you don't need a proxy
-set_proxy
+# uncomment this if you need proxy
+#set_proxy
+
 # domain config
 # please change this
 export DOMAIN=example.com
+
+# cloudflare cert setting
+export dns_cloudflare_email=email@example.com
+export dns_cloudflare_api_key=yourapikey
