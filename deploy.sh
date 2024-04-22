@@ -14,12 +14,13 @@ then
   exit 1
 fi
 
+export Working_DIR=$CWD
 # excute all scripts in the ./src dir
-for script in ./src/*.sh
+for script in $Working_DIR/src/*.sh
 do
   if [ -f "$script" ]
   then
   echo $script
-  # source "$script"
+  source "$script"
   fi
 done
