@@ -4,7 +4,7 @@ this is a repo for lnmp quick deployment.
 - to provide a quick way deploying a bunch of web applications.
 
 ## supported platform
-- ubuntu
+- ubuntu (tested on 22.04 LTS)
 
 ## server minimum requirement
 - 2 core
