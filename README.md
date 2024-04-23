@@ -15,14 +15,15 @@ this is a repo for lnmp quick deployment.
 - mariadb (database)
 - nginx (webserver)
 - php (processer)
-- certbot (cert provider)
+- certbot (cert provider)(optional)
 
 ### applications
 - mediawiki
 - myphpadmin
+- mytinytodo
 - phproject
 - chyrp-lite
 - flarum
 
 ## defualt variables
-- installation root
+- installation root: /opt/www

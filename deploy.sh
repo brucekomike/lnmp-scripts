@@ -14,9 +14,10 @@ then
   exit 1
 fi
 
-export Working_DIR=$CWD
+export Working_DIR=$(pwd)
+export scripts="$Working_DIR/src/*.sh"
 # excute all scripts in the ./src dir
-for script in $Working_DIR/src/*.sh
+for script in $scripts
 do
   if [ -f "$script" ]
   then
