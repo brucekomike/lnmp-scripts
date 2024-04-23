@@ -1,6 +1,6 @@
 #!/bin/bashb
 # copy files
-cp $Working_DIR/usr/share/nginx/sites-availale/* /etc/nginx/sites-available/
+cp $Working_DIR/usr/share/nginx/sites-available/* /etc/nginx/sites-available/
 # read config
 old_domain="example.com"
 new_domain=$DOMAIN
