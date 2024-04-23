@@ -6,7 +6,7 @@ old_domain="example.com"
 new_domain=$DOMAIN
 
 export nginx_dir="/etc/nginx/sites-available/*"
-export nginx_enable_dir"/etc/nginx/sites-enabled/"
+export nginx_enable_dir="/etc/nginx/sites-enabled/"
 # replace example.con with your setting in 00-env.sh
 for config_file in 
 do
